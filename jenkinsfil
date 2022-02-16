@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Helloworld') {
             steps {
                 echo 'Hello World'
                 input message: 'Please provide your approval', ok: 'Chala De'
